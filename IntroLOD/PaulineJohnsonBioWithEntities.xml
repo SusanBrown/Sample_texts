@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Sample Document Title</title>
+			</titleStmt>
+			<publicationStmt>
+				<p/>
+			</publicationStmt>
+			<notesStmt>
+				<note type="abstract">Sample abstract text</note>
+			</notesStmt>
+			<sourceDesc sameAs="http://www.cwrc.ca">
+				<p>Created from original research by members of CWRC/CSÉC unless otherwise noted.</p>
+			</sourceDesc>
+		</fileDesc>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?note_annotation_20210524140819068",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2021-05-24T18:08:19.068Z",
+	"dcterms:modified": "2021-05-24T18:08:19.068Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/SusanBrown",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Susan Brown",
+		"foaf:nick": "SusanBrown"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?note_annotation_20210524140819068#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "7.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?note_annotation_20210524140819068#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/list/item[2]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "PJ adopted her Mohawk name from her great-grandfather, and it means \"double wampum\" or \"double life\". She explained that her surname was a baptismal name first taken by that great-grandfather, Jacob Johnson, whose real name was Tekahionwake. The 'T' is pronounced as 'D', and 'K' as a hard 'G'."
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "7.0.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?date_annotation_20210524141306667",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2021-05-24T18:13:06.667Z",
+	"dcterms:modified": "2021-05-24T18:13:06.667Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/SusanBrown",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Susan Brown",
+		"foaf:nick": "SusanBrown"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?date_annotation_20210524141306667#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "7.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?date_annotation_20210524141306667#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[3]/p/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1861-03-10"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "7.0.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?person_annotation_20210524152123439",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2021-05-24T19:21:23.439Z",
+	"dcterms:modified": "2021-05-24T19:21:23.439Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/SusanBrown",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Susan Brown",
+		"foaf:nick": "SusanBrown"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?person_annotation_20210524152123439#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "7.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?person_annotation_20210524152123439#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/list/item[2]/note/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/35144782968458846045/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "7.0.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?place_annotation_20210524152123442",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2021-05-24T19:21:23.442Z",
+	"dcterms:modified": "2021-05-24T19:23:00.890Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/SusanBrown",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Susan Brown",
+		"foaf:nick": "SusanBrown"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?place_annotation_20210524152123442#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "7.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?place_annotation_20210524152123442#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[3]/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q23504928",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "7.0.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?place_annotation_20210524152123444",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2021-05-24T19:21:23.444Z",
+	"dcterms:modified": "2021-05-24T19:22:37.500Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/SusanBrown",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Susan Brown",
+		"foaf:nick": "SusanBrown"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?place_annotation_20210524152123444#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "7.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?place_annotation_20210524152123444#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[3]/p/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://geonames.org/5907990",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "7.0.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?person_annotation_20210524152123447",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2021-05-24T19:21:23.447Z",
+	"dcterms:modified": "2021-05-24T19:21:23.447Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/SusanBrown",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Susan Brown",
+		"foaf:nick": "SusanBrown"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?person_annotation_20210524152123447#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "7.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?person_annotation_20210524152123447#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[3]/p[3]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/35144782968458846045/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "7.0.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?person_annotation_20210524152123451",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2021-05-24T19:21:23.451Z",
+	"dcterms:modified": "2021-05-24T19:23:19.665Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/SusanBrown",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Susan Brown",
+		"foaf:nick": "SusanBrown"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?person_annotation_20210524152123451#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "7.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?person_annotation_20210524152123451#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[3]/p[3]/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/217513681/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "7.0.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?person_annotation_20210524152123454",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2021-05-24T19:21:23.454Z",
+	"dcterms:modified": "2021-05-24T19:25:31.582Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/SusanBrown",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Susan Brown",
+		"foaf:nick": "SusanBrown"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?person_annotation_20210524152123454#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "7.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?person_annotation_20210524152123454#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[3]/p[3]/persName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/94501784/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "7.0.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?person_annotation_20210524152123456",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2021-05-24T19:21:23.456Z",
+	"dcterms:modified": "2021-05-24T19:21:23.456Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/SusanBrown",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Susan Brown",
+		"foaf:nick": "SusanBrown"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?person_annotation_20210524152123456#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "7.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?person_annotation_20210524152123456#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[3]/p[4]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/35144782968458846045/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "7.0.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?person_annotation_20210524154937360",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2021-05-24T19:49:37.360Z",
+	"dcterms:modified": "2021-05-24T19:49:37.360Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/SusanBrown",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Susan Brown",
+		"foaf:nick": "SusanBrown"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?person_annotation_20210524154937360#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "7.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?person_annotation_20210524154937360#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/list/item/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/35144782968458846045/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "7.0.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?person_annotation_20210524154953783",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2021-05-24T19:49:53.783Z",
+	"dcterms:modified": "2021-05-24T19:49:53.783Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/SusanBrown",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Susan Brown",
+		"foaf:nick": "SusanBrown"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?person_annotation_20210524154953783#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "7.0.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities.xml?person_annotation_20210524154953783#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/list/item[2]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/35144782968458846045/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "7.0.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description></rdf:RDF></xenoData></teiHeader>
+	<text>
+		<body>
+			<div><head>E. Pauline Johnson</head><head>Names</head><list><item><persName ref="http://viaf.org/viaf/35144782968458846045/" key="Johnson, E. Pauline, 1861-1913" cert="high" type="real">Emily Pauline Johnson</persName></item><item><persName ref="http://viaf.org/viaf/35144782968458846045/" key="Johnson, E. Pauline, 1861-1913" cert="high" type="real">Tekahionwake</persName><note type="scholarNote">PJ adopted her Mohawk name from her great-grandfather, and it means "double wampum" or "double life". She explained that her surname was a baptismal name first taken by that great-grandfather, Jacob Johnson, whose real name was <persName key="Tekahionwake" xml:id="2" ref="http://viaf.org/viaf/35144782968458846045/">Tekahionwake</persName>. The 'T' is pronounced as 'D', and 'K' as a hard 'G'.</note></item></list></div><div><head><emph>Pseudonyms</emph></head><list><item>Margaret Rox</item><item>Rollstone</item></list></div><div type="prose">
+				<head>Birth and Circumstances</head><p><date when="1861-03-10" cert="high">10 March 1861</date> PJ was born at the family home, <placeName key="Chiefswood" xml:id="3" ref="http://www.wikidata.org/entity/Q23504928">Chiefswood</placeName>, on the Six Nations Reserve near <placeName key="Brantford Ontario Canada" xml:id="4" ref="http://geonames.org/5907990">Brantford</placeName>, Ontario.</p><p>She was the youngest child and the second daughter. </p><p><persName key="Tekahionwake" xml:id="5" ref="http://viaf.org/viaf/35144782968458846045/">PJ</persName> grew up with servants, usually three: a nurse, a cook, and a man to oversee the stables. Her home had the accoutrements of a middle-class life including a "piano, silver tea service, books . . . ."  <persName key="Chiefswood" xml:id="6">Chiefswood</persName> was visited by nobility on two occasions. Biographers <persName key="Gerson, Carole, 1948-" xml:id="7" ref="http://viaf.org/viaf/217513681/">Carole Gerson</persName> and <persName key="Strong-Boag, Veronica Jane, 1947-...." xml:id="8" ref="http://viaf.org/viaf/94501784/">Veronica Strong-Boag</persName> describe the Six Nations Reserve at that time as a "centre of Native resistance" and an "extraordinary community".  The Iroquois people of the reserve were noted for being vigorously intellectual and respectful of matrilineal traditions.</p><p>As the daughter of an English mother and a Mohawk father, <persName key="Tekahionwake" xml:id="9" ref="http://viaf.org/viaf/35144782968458846045/">PJ</persName> was attentive to issues of her dual heritage; by Canadian law she was deemed Indian. She identified herself as Mohawk. </p>
+			</div><div/>
+			
+			
+			
+		</body>
+	</text>
+</TEI>
