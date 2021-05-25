@@ -121,7 +121,7 @@
 	"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/Sample prose revised?link_annotation_20190814164849333",
 	"@type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:48:49.333Z",
-	"dcterms:modified": "2019-08-14T20:48:49.333Z",
+	"dcterms:modified": "2021-05-25T01:04:15.188Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -149,11 +149,11 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/Sample prose revised?link_annotation_20190814164849333#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[3]/note[2]/ref"
+			"rdf:value": "TEI/text/body/div[3]/note[2]/emph/ref"
 		}
 	},
 	"oa:hasBody": {
-		"@id": "http://cufts2.lib.sfu.ca/CRDB4/BVAS/resource/5724",
+		"@id": "https://rpo.library.utoronto.ca/poems/flint-and-feather",
 		"@type": "cnt:ContentAsText"
 	},
 	"as:generator": {
@@ -162,83 +162,20 @@
 		"rdfs:label": "CWRC Writer",
 		"schema:url": "https://cwrc-writer.cwrc.ca",
 		"schema:softwareVersion": "7.0.0"
-	}
-}
-]]></rdf:Description>
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
-{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#"
 	},
-	"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/Sample prose revised?org_annotation_20190814164849334",
-	"@type": "oa:Annotation",
-	"dcterms:created": "2019-08-14T20:48:49.334Z",
-	"dcterms:modified": "2019-08-14T20:48:49.334Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/ilovan",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Mihaela Ilovan",
-		"foaf:nick": "ilovan"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/Sample prose revised?org_annotation_20190814164849334#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/Sample prose revised",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://cwrc-writer.cwrc.ca",
-			"@type": "as:Application",
-			"rdfs:label": "CWRC Writer",
-			"schema:softwareVersion": "7.0.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/Sample prose revised?org_annotation_20190814164849334#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[4]/bibl/orgName"
+	"dcterms:contributor": [
+		{
+			"dcterms:contributor": {
+				"@id": "https://github.com/SusanBrown",
+				"@type": [
+					"cwrc:NaturalPerson",
+					"schema:Persosn"
+				],
+				"cwrc:hasName": "Susan Brown",
+				"foaf:nick": "SusanBrown"
+			}
 		}
-	},
-	"oa:hasBody": {
-		"@type": "org:Organization",
-		"@id": "http://viaf.org/viaf/151283596",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://cwrc-writer.cwrc.ca",
-		"@type": "as:Application",
-		"rdfs:label": "CWRC Writer",
-		"schema:url": "https://cwrc-writer.cwrc.ca",
-		"schema:softwareVersion": "7.0.0"
-	},
-	"oa:hasCertainty": "cwrc:medium"
+	]
 }
 ]]></rdf:Description>
 <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
@@ -271,7 +208,7 @@
 	"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/Sample prose revised?correction_annotation_20190814164849405",
 	"@type": "oa:Annotation",
 	"dcterms:created": "2019-08-14T20:48:49.405Z",
-	"dcterms:modified": "2019-08-14T20:48:49.405Z",
+	"dcterms:modified": "2021-05-25T01:06:26.743Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -313,83 +250,20 @@
 		"rdfs:label": "CWRC Writer",
 		"schema:url": "https://cwrc-writer.cwrc.ca",
 		"schema:softwareVersion": "7.0.0"
-	}
-}
-]]></rdf:Description>
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
-{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#"
 	},
-	"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/Sample prose revised?person_annotation_20190814164849407",
-	"@type": "oa:Annotation",
-	"dcterms:created": "2019-08-14T20:48:49.407Z",
-	"dcterms:modified": "2019-08-14T20:48:49.407Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/ilovan",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Mihaela Ilovan",
-		"foaf:nick": "ilovan"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/Sample prose revised?person_annotation_20190814164849407#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/Sample prose revised",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://cwrc-writer.cwrc.ca",
-			"@type": "as:Application",
-			"rdfs:label": "CWRC Writer",
-			"schema:softwareVersion": "7.0.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/Sample prose revised?person_annotation_20190814164849407#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[4]/bibl[2]/persName"
+	"dcterms:contributor": [
+		{
+			"dcterms:contributor": {
+				"@id": "https://github.com/SusanBrown",
+				"@type": [
+					"cwrc:NaturalPerson",
+					"schema:Persosn"
+				],
+				"cwrc:hasName": "Susan Brown",
+				"foaf:nick": "SusanBrown"
+			}
 		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/78272387",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://cwrc-writer.cwrc.ca",
-		"@type": "as:Application",
-		"rdfs:label": "CWRC Writer",
-		"schema:url": "https://cwrc-writer.cwrc.ca",
-		"schema:softwareVersion": "7.0.0"
-	},
-	"oa:hasCertainty": "cwrc:high"
+	]
 }
 ]]></rdf:Description>
 <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
@@ -481,8 +355,7 @@
 			<div type="annotations">
 				<head>Annotations and Keywords</head>
 				<note type="researchNote">These annotations can be added to the prose content or in a separate section</note>
-				<note type="link">Poem featured in <ref target="http://cufts2.lib.sfu.ca/CRDB4/BVAS/resource/5724">Canada's Early Women Writers</ref>
-				</note>
+				<note type="link">Poem featured in <emph><ref target="https://rpo.library.utoronto.ca/poems/flint-and-feather">Representative Poetry Online</ref></emph></note>
 				<note type="keyword">Sample annotation</note>
 				<note type="correction">Sample correction</note>
 				<note type="indexTerm">Sample index term</note>
@@ -495,9 +368,8 @@
 						
 					</sic><corr>Bibliography</corr></choice>
 				</head>
-				<bibl>The New Monthly Magazine. Alternate Titles: The New Monthly Magazine and Universal Register; The New Monthly Magazine and Literary Journal; Colburn's New Monthly Magazine; The New Monthly Magazine and Humorist.London:H. Colburn;<orgName cert="medium" ref="http://viaf.org/viaf/151283596">Chapman and Hall</orgName>;John Bale and Sons,1814-1884.</bibl>
-				<bibl>Sample bibliographic record: <persName cert="high" type="real" ref="http://viaf.org/viaf/78272387">McLaren, Floris Clark</persName>. Glimpse. Canadian Poetry Magazine1.1(1936):23.</bibl>
-				<bibl>Sample bibliographic record: McLaren, Floris Clark. Glimpse. Canadian Poetry Magazine1.1(1936):23.Volume I: 1450-1625, Volume II: 1625-1700, Volume III: 1700-1800, Volume IV: 1800-1900, Volume V: Indexes of Titles, First Lines, Names, Repositories</bibl>
+				<bibl>Sample bibliographic records:</bibl><bibl> <emph>The New Monthly Magazine</emph>. Alternate Titles: <emph>The New Monthly Magazine and Universal Register; The New Monthly Magazine and Literary Journal; Colburn's New Monthly Magazine; The New Monthly Magazine and Humorist</emph>. London: H. Colburn; Chapman and Hall; John Bale and Sons, 1814-1884.</bibl>
+				<bibl>McLaren, Floris Clark. Glimpse. <emph>Canadian Poetry Magazine</emph> 1.1 (1936):23.</bibl>
 			</div>
 		</body>
 	</text>
