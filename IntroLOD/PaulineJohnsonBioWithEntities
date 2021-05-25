@@ -44,7 +44,7 @@
 		"schema": "http://schema.org/",
 		"xsd": "http://www.w3.org/2001/XMLSchema#"
 	},
-	"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities?note_annotation_20210524120819068",
+	"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities?note_annotation_20210524140819068",
 	"@type": "oa:Annotation",
 	"dcterms:created": "2021-05-24T18:08:19.068Z",
 	"dcterms:modified": "2021-05-24T18:08:19.068Z",
@@ -59,7 +59,7 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities?note_annotation_20210524120819068#Target",
+		"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities?note_annotation_20210524140819068#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities",
@@ -73,7 +73,7 @@
 			"schema:softwareVersion": "7.0.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities?note_annotation_20210524120819068#Selector",
+			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities?note_annotation_20210524140819068#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/list/item[2]/note"
 		}
@@ -119,7 +119,7 @@
 		"schema": "http://schema.org/",
 		"xsd": "http://www.w3.org/2001/XMLSchema#"
 	},
-	"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities?date_annotation_20210524121306667",
+	"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities?date_annotation_20210524141306667",
 	"@type": "oa:Annotation",
 	"dcterms:created": "2021-05-24T18:13:06.667Z",
 	"dcterms:modified": "2021-05-24T18:13:06.667Z",
@@ -134,7 +134,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities?date_annotation_20210524121306667#Target",
+		"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities?date_annotation_20210524141306667#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities",
@@ -148,7 +148,7 @@
 			"schema:softwareVersion": "7.0.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities?date_annotation_20210524121306667#Selector",
+			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities?date_annotation_20210524141306667#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div[3]/p/date"
 		}
@@ -165,87 +165,12 @@
 		"schema:softwareVersion": "7.0.0"
 	}
 }
-]]></rdf:Description>
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
-{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#"
-	},
-	"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities?person_annotation_20210524132123439",
-	"@type": "oa:Annotation",
-	"dcterms:created": "2021-05-24T19:21:23.439Z",
-	"dcterms:modified": "2021-05-24T19:21:23.439Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/SusanBrown",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Susan Brown",
-		"foaf:nick": "SusanBrown"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities?person_annotation_20210524132123439#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://cwrc-writer.cwrc.ca",
-			"@type": "as:Application",
-			"rdfs:label": "CWRC Writer",
-			"schema:softwareVersion": "7.0.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/SusanBrown/Sample_texts/master/IntroLOD/PaulineJohnsonBioWithEntities?person_annotation_20210524132123439#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/list/item[2]/note/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/35144782968458846045/",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://cwrc-writer.cwrc.ca",
-		"@type": "as:Application",
-		"rdfs:label": "CWRC Writer",
-		"schema:url": "https://cwrc-writer.cwrc.ca",
-		"schema:softwareVersion": "7.0.0"
-	}
-}
 ]]></rdf:Description></rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
-			<div><head>E. Pauline Johnson</head><head>Names </head><list><item>Emily Pauline Johnson</item><item>Tekahionwake<note type="scholarNote">PJ adopted her Mohawk name from her great-grandfather, and it means "double wampum" or "double life". She explained that her surname was a baptismal name first taken by that great-grandfather, Jacob Johnson, whose real name was <persName key="Tekahionwake" xml:id="2" ref="http://viaf.org/viaf/35144782968458846045/">Tekahionwake</persName>. The 'T' is pronounced as 'D', and 'K' as a hard 'G'.</note></item></list></div><div><head><emph>Pseudonyms</emph></head><list><item>Margaret Rox</item><item>Rollstone</item></list></div><div type="prose">
-				<head>Birth and Circumstances</head><p><date when="1861-03-10" cert="high">10 March 1861</date> PJ was born at the family home, Chiefswood, on the Six Nations Reserve near Brantford, Ontario.</p><p>She was the youngest child and the second daughter. </p><p>PJ grew up with servants, usually three: a nurse, a cook, and a man to oversee the stables. Her home had the accoutrements of a middle-class life including a "piano, silver tea service, books . . . ."  Chiefswood was visited by nobility on two occasions. Biographers Carole Gerson and Veronica Strong-Boag describe the Six Nations Reserve at that time as a "centre of Native resistance" and an "extraordinary community".  The Iroquois people of the reserve were noted for being vigorously intellectual and respectful of matrilineal traditions.</p><p>As the daughter of an English mother and a Mohawk father, PJ was attentive to issues of her dual heritage; by Canadian law she was deemed Indian. She identified herself as Mohawk. </p>
-			</div><div/>
+			<div><head>E. Pauline Johnson</head><head>Names</head><list><item>Emily Pauline Johnson</item><item>Tekahionwake<note type="scholarNote">PJ adopted her Mohawk name from her great-grandfather, and it means "double wampum" or "double life". She explained that her surname was a baptismal name first taken by that great-grandfather, Jacob Johnson, whose real name was Tekahionwake. The 'T' is pronounced as 'D', and 'K' as a hard 'G'.</note></item></list></div><div><head><emph>Pseudonyms</emph></head><list><item>Margaret Rox</item><item>Rollstone</item></list></div><div type="prose">
+				<head>Birth and Circumstances</head><p><date when="1861-03-10" cert="high">10 March 1861</date> PJ was born at the family home, Chiefswood, on the Six Nations Reserve near Brantford, Ontario.</p><p>She was the youngest child and the second daughter. </p><p>PJ grew up with servants, usually three: a nurse, a cook, and a man to oversee the stables. Her home had the accoutrements of a middle-class life including a "piano, silver tea service, books . . . ."  Chiefswood was visited by nobility on two occasions. Biographers Carole Gerson and Veronica Strong-Boag describe the Six Nations Reserve at that time as a "centre of Native resistance" and an "extraordinary community".  The Iroquois people of the reserve were noted for being vigorously intellectual and respectful of matrilineal traditions.</p><p>As the daughter of an English mother and a Mohawk father, PJ was attentive to issues of her dual heritage; by Canadian law she was deemed Indian. She identified herself as Mohawk. </p><p>In her stage performances, PJ appeared in a buckskin dress of her own design and manufacture for the first half of the show, and then after a brief intermission, reappeared in a ball-gown (the costume of a white Victorian woman) for the second half. Critic Mary Elizabeth Leighton argues that she was enacting assimilation: the Native disappearing into civilized late-Victorian culture. The aboriginal outfit was, in a way, inauthentic: PJ collected artefacts from several different First Nations, so it did not truly represent Mohawk dress, for example. Among the accoutrements for this outfit was a necklace made from the claws of a bear which may have been a present from author and friend Ernest Thompson Seton. PJ did affirm that Seton gave her a bracelet of elks' teeth and mountain lion claws. She had a wampum belt and bracelets made of white and purple shells, her father's knife at her belt, and a scarlet blanket. Her buckskin dress was adorned with silver brooches, fringes, ermine tails, rabbit pelts, her grandfather's Huron scalp, and another scalp bought in the United States. PJ knew that audiences came, in part, to see an Indian, and sometimes found herself described in promotional material or in reviews as 'The Mohawk Princess' or 'Indian Poetess'. </p><p>[SECTION OMITTED]</p>
+			</div><div><head>Touring</head><p>PJ's literary career, which was highly performative, was likely launched by a reading in Toronto in early 1892 of "A Cry from an Indian Wife".</p></div>
 			
 			
 			
